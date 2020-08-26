@@ -22,3 +22,5 @@ tabulate
 mlflow
 kubernetes
 boto3
+
+sqlalchemy>=1.3.19 # not directly required, pinned by Snyk to avoid a vulnerability
