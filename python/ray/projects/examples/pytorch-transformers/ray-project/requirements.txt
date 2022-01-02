@@ -15,3 +15,4 @@ sentencepiece
 tensorboardX
 # Pytorch transformers
 pytorch_transformers
+numpy>=1.22.0 # not directly required, pinned by Snyk to avoid a vulnerability
