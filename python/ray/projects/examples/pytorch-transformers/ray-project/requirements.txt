@@ -1,6 +1,6 @@
 # Adapted from https://github.com/huggingface/pytorch-transformers/blob/master/requirements.txt
 # PyTorch
-torch>=1.0.0
+torch>=2.8.0
 # progress bars in model download and training scripts
 tqdm
 # Accessing files from S3 directly.
