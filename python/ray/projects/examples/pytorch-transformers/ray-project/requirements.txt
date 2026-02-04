@@ -1,6 +1,6 @@
 # Adapted from https://github.com/huggingface/pytorch-transformers/blob/master/requirements.txt
 # PyTorch
-torch>=1.0.0
+torch>=2.10.0
 # progress bars in model download and training scripts
 tqdm
 # Accessing files from S3 directly.
@@ -15,3 +15,5 @@ sentencepiece
 tensorboardX
 # Pytorch transformers
 pytorch_transformers
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
